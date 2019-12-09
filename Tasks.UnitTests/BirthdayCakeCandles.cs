@@ -8,7 +8,7 @@ namespace Tasks.UnitTests
     {
         [Theory]
         [InlineData(new[] { 1, 3, 5, 7, 9, 4, 3, 9 }, 2)]
-        public void CountMinMaxSum(int[] arr, int expected)
+        public void CountBirthdayCakeCandles(int[] arr, int expected)
         {
             var result = Count(arr);
 
